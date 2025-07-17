@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.background_4d6594 {
+  background-color: #4d6594;
+}
+
+.background_d3d5d7 {
+  background-color: #d3d5d7;
+}
+
+.background_cccccc{
+  background-color: #cccccc;
+}
+
+.react-datepicker-popper {
+   z-index: 9999 !important;
+}

@@ -1,0 +1,6 @@
+.btn-group-nowrap {
+    font-size: 0.8em;
+    white-space: nowrap;    /* 텍스트 줄바꿈 방지 */
+    overflow: hidden;       /* 넘치는 부분 숨기기 */
+    text-overflow: ellipsis; /* 넘칠 경우 ... 표시 (선택사항) */
+}

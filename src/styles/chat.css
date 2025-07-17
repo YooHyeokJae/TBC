@@ -1,0 +1,39 @@
+.chatBtn{
+    position: fixed;       /* 화면에 고정 */
+    bottom: 20px;          /* 화면 아래에서 20px 위 */
+    right: 20px;           /* 화면 오른쪽에서 20px 왼쪽 */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;    /* 둥근 원형 */
+    background-color: #007bff;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    transition: right 0.3s ease;
+    z-index: 1000;         /* 다른 요소 위에 위치 */
+}
+
+.chatBtn.open {
+    right: 720px;
+}
+
+.chatDiv {
+    position: fixed;
+    bottom: 0;
+    right: -700px;
+    width: 700px;
+    height: 60vh;
+    background-color: #f1f1f1;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.3);
+    transition: right 0.3s ease;
+}
+
+.chatDiv.open {
+    right: 0
+}
