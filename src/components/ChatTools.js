@@ -21,7 +21,7 @@ function ChatTools({loginUser}) {
         }).then(res => res.json())
             .then(data => {
                 setChatRoom(data);
-                // chatRoom.num 이 0일 경우 아이디 잘못 입력했다고 표현해주기
+                // chatRoom.num 이 0일 경우 아이디 잘못 입력했다고 표현해줘야 함
                 console.log(data);
             })
             .catch(err => console.log(err));
